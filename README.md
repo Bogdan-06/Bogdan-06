@@ -20,7 +20,7 @@
   <a href="https://github.com/Bogdan-06/hand-gesture-media-control"><img src="assets/gesture.svg" width="49%" alt="Hand Gesture Media Control — a Python webcam app with configurable gestures, calibration, and tray mode." /></a>
 </p>
 
-**Also on mobile → [FriendMap](https://github.com/Bogdan-06/friendmap)**  
+**Also on mobile → [FriendMap](https://github.com/Bogdan-06/friendmap)**<br/>
 An Android app with friend requests, optional live location sharing, Google Maps, and Firebase notifications.
 
 <br/>
