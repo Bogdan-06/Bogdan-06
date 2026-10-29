@@ -2,7 +2,7 @@
 
 **Android development · Computer vision · Systems programming**
 
-I build software that connects technical challenges with practical use—from on-device object recognition and accessible Android interfaces to console emulation and desktop tools.
+I build software that connects technical challenges with practical use from on-device object recognition and accessible Android interfaces to console emulation and desktop tools.
 
 ## Currently building
 
