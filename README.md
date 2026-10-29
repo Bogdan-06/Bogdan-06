@@ -1,37 +1,45 @@
-<div align="center">
+<p align="center">
+  <img src="assets/hero.png" width="100%" alt="Bogdan — software, systems, experiments. Exploded retro console artwork with glowing amber CPU traces." />
+</p>
 
-# Hey, I'm Bogdan 👋
+<p align="center">
+  <strong>I build emulators, useful apps, and experiments in how we interact with software.</strong><br/>
+  From figuring out what a CPU instruction does to making an everyday tool feel better to use.
+</p>
 
-**Emulators, useful apps, and experiments with new ways to interact with software.**
+<br/>
 
-[C++](https://github.com/Bogdan-06/nes-emu) · [Windows tools](https://github.com/Bogdan-06/file-compressor) · [Android](https://github.com/Bogdan-06/friendmap) · [Computer vision](https://github.com/Bogdan-06/hand-gesture-media-control)
+### Selected work
 
-</div>
+<p>
+  <a href="https://github.com/Bogdan-06/ps1-emulator"><img src="assets/ps1.svg" width="49%" alt="PlayStation emulator — early-stage C++20 project with BIOS loading, memory maps, and a MIPS R3000A interpreter." /></a>
+  <a href="https://github.com/Bogdan-06/nes-emu"><img src="assets/nes.svg" width="49%" alt="NES emulator — C++17, SDL2, and CMake." /></a>
+</p>
+<p>
+  <a href="https://github.com/Bogdan-06/file-compressor"><img src="assets/compressor.svg" width="49%" alt="File Compressor — a C# and WPF desktop app with FFmpeg, batch queues, and side-by-side previews." /></a>
+  <a href="https://github.com/Bogdan-06/hand-gesture-media-control"><img src="assets/gesture.svg" width="49%" alt="Hand Gesture Media Control — a Python webcam app with configurable gestures, calibration, and tray mode." /></a>
+</p>
+
+**Also on mobile → [FriendMap](https://github.com/Bogdan-06/friendmap)**  
+An Android app with friend requests, optional live location sharing, Google Maps, and Firebase notifications.
+
+<br/>
+
+### In the toolbox
+
+<p>
+  <img src="https://img.shields.io/badge/C++-111315?style=for-the-badge&amp;logo=cplusplus&amp;logoColor=EDB35E" alt="C++" />
+  <img src="https://img.shields.io/badge/C%23-111315?style=for-the-badge&amp;logo=dotnet&amp;logoColor=EDB35E" alt="C#" />
+  <img src="https://img.shields.io/badge/Python-111315?style=for-the-badge&amp;logo=python&amp;logoColor=EDB35E" alt="Python" />
+  <img src="https://img.shields.io/badge/.NET-111315?style=for-the-badge&amp;logo=dotnet&amp;logoColor=7AC4CB" alt=".NET" />
+  <img src="https://img.shields.io/badge/Android-111315?style=for-the-badge&amp;logo=android&amp;logoColor=7AC4CB" alt="Android" />
+  <img src="https://img.shields.io/badge/Firebase-111315?style=for-the-badge&amp;logo=firebase&amp;logoColor=7AC4CB" alt="Firebase" />
+</p>
+
+`SDL2` · `CMake` · `WPF` · `FFmpeg` · `Google Maps`
+
+<br/>
 
 ---
 
-I build projects that give me something to figure out: how a console executes instructions, how to make a smaller video still look good, or how to control playback with a hand gesture.
-
-This is where I share those projects as they take shape.
-
-### What I'm building
-
-| Project | The idea |
-| :--- | :--- |
-| **[File Compressor](https://github.com/Bogdan-06/file-compressor)** | A Windows app for compressing video, images, audio, and files, with a queue and side-by-side video previews. |
-| **[FriendMap](https://github.com/Bogdan-06/friendmap)** | An Android app for finding friends on a map, with optional live location sharing and push notifications. |
-| **[Hand Gesture Media Control](https://github.com/Bogdan-06/hand-gesture-media-control)** | Webcam-based media controls with configurable gestures, calibration, and a tray app. |
-| **[NES Emulator](https://github.com/Bogdan-06/nes-emu)** | A C++17 NES emulator built with CMake and SDL2. |
-| **[PS1 Emulator](https://github.com/Bogdan-06/ps1-emulator)** | An early-stage C++ PlayStation emulator, starting with BIOS loading, memory mapping, and a MIPS R3000A interpreter. |
-
-### Tools across these projects
-
-**Languages** · C++ · C# · Python  
-**Desktop & emulation** · .NET / WPF · SDL2 · CMake · FFmpeg  
-**Mobile & backend** · Android · Firebase · Google Maps
-
----
-
-<div align="center">
-<sub>From CPU instructions to everyday tools.</sub>
-</div>
+<p align="center"><sub><strong>BOGDAN-06</strong> &nbsp; / &nbsp; From CPU instructions to everyday tools.</sub></p>
