@@ -1,45 +1,48 @@
-<p align="center">
-  <img src="assets/hero.png" width="100%" alt="Bogdan — software, systems, experiments. Exploded retro console artwork with glowing amber CPU traces." />
-</p>
+<h1>Bogdan Bogănescu</h1>
 
-<p align="center">
-  <strong>I build emulators, useful apps, and experiments in how we interact with software.</strong><br/>
-  From figuring out what a CPU instruction does to making an everyday tool feel better to use.
-</p>
+**Android development · Computer vision · Systems programming**
 
-<br/>
+I build software that connects technical challenges with practical use—from on-device object recognition and accessible Android interfaces to console emulation and desktop tools.
 
-### Selected work
+## Currently building
 
-<p>
-  <a href="https://github.com/Bogdan-06/ps1-emulator"><img src="assets/ps1.svg" width="49%" alt="PlayStation emulator — early-stage C++20 project with BIOS loading, memory maps, and a MIPS R3000A interpreter." /></a>
-  <a href="https://github.com/Bogdan-06/nes-emu"><img src="assets/nes.svg" width="49%" alt="NES emulator — C++17, SDL2, and CMake." /></a>
-</p>
-<p>
-  <a href="https://github.com/Bogdan-06/file-compressor"><img src="assets/compressor.svg" width="49%" alt="File Compressor — a C# and WPF desktop app with FFmpeg, batch queues, and side-by-side previews." /></a>
-  <a href="https://github.com/Bogdan-06/hand-gesture-media-control"><img src="assets/gesture.svg" width="49%" alt="Hand Gesture Media Control — a Python webcam app with configurable gestures, calibration, and tray mode." /></a>
-</p>
+### [VisionAssist](https://github.com/Bogdan-06/VisionAssist)
+**An Android assistive prototype with offline object recognition and Romanian voice assistance.**
 
-**Also on mobile → [FriendMap](https://github.com/Bogdan-06/friendmap)**<br/>
-An Android app with friend requests, optional live location sharing, Google Maps, and Firebase notifications.
+VisionAssist brings camera-based object recognition, spoken feedback, and an accessible interface into a native Android app. Core detection runs on the device; optional online voice conversations extend the experience.
 
-<br/>
+- **On-device vision:** CameraX and MediaPipe with a bundled EfficientDet-Lite0 model.
+- **Accessible interaction:** Jetpack Compose, TalkBack-readable results, large controls, and Romanian text-to-speech.
+- **Voice assistance:** Optional Gemini Live and OpenAI Realtime integration, with short-lived credentials issued by a Node.js backend.
 
-### In the toolbox
+`Kotlin` `Jetpack Compose` `CameraX` `MediaPipe` `Node.js`
 
-<p>
-  <img src="https://img.shields.io/badge/C++-111315?style=for-the-badge&amp;logo=cplusplus&amp;logoColor=EDB35E" alt="C++" />
-  <img src="https://img.shields.io/badge/C%23-111315?style=for-the-badge&amp;logo=dotnet&amp;logoColor=EDB35E" alt="C#" />
-  <img src="https://img.shields.io/badge/Python-111315?style=for-the-badge&amp;logo=python&amp;logoColor=EDB35E" alt="Python" />
-  <img src="https://img.shields.io/badge/.NET-111315?style=for-the-badge&amp;logo=dotnet&amp;logoColor=7AC4CB" alt=".NET" />
-  <img src="https://img.shields.io/badge/Android-111315?style=for-the-badge&amp;logo=android&amp;logoColor=7AC4CB" alt="Android" />
-  <img src="https://img.shields.io/badge/Firebase-111315?style=for-the-badge&amp;logo=firebase&amp;logoColor=7AC4CB" alt="Firebase" />
-</p>
+<sub>Active prototype. Object recognition is not a validated hazard detector or navigation system.</sub>
 
-`SDL2` · `CMake` · `WPF` · `FFmpeg` · `Google Maps`
-
-<br/>
+[Explore the project →](https://github.com/Bogdan-06/VisionAssist)
 
 ---
 
-<p align="center"><sub><strong>BOGDAN-06</strong> &nbsp; / &nbsp; From CPU instructions to everyday tools.</sub></p>
+## Selected projects
+
+| Project | Focus | Technologies |
+| :--- | :--- | :--- |
+| **[File Compressor](https://github.com/Bogdan-06/file-compressor)** | Windows media compression with batch queues and side-by-side video previews. | C# · .NET · WPF · FFmpeg |
+| **[FriendMap](https://github.com/Bogdan-06/friendmap)** | Android friend-location sharing with opt-in controls, map markers, and notifications. | Kotlin · Firebase · Google Maps |
+| **[Hand Gesture Media Control](https://github.com/Bogdan-06/hand-gesture-media-control)** | Configurable webcam gestures for media playback and volume control. | Python · Computer vision |
+| **[NES Emulator](https://github.com/Bogdan-06/nes-emu)** | Exploring NES emulation with a C++17 implementation. | C++ · SDL2 · CMake |
+| **[PS1 Emulator](https://github.com/Bogdan-06/ps1-emulator)** | Early-stage PlayStation emulation: BIOS loading, memory mapping, and a MIPS interpreter. | C++20 · MIPS R3000A |
+
+## Technical focus
+
+**Mobile & accessibility**  
+Kotlin · Android · Jetpack Compose · CameraX · TalkBack
+
+**Vision & voice**  
+MediaPipe · On-device inference · Romanian TTS · Gemini Live · OpenAI Realtime
+
+**Systems & desktop**  
+C++ · C# · Python · .NET / WPF · SDL2 · CMake · FFmpeg
+
+**Backend & services**  
+Node.js · Firebase · Google Maps
