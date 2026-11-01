@@ -35,6 +35,7 @@ An Android assistive prototype with offline object recognition, Romanian voice a
 **Vision & voice** — MediaPipe · on-device inference · Romanian TTS · Gemini Live · OpenAI Realtime
 
 **Systems & desktop** — C++ · C# · Python · .NET/WPF · SDL2 · CMake · FFmpeg
+
 **Backend & services** — Node.js · Firebase · Google Maps
 
 Most of my repositories are experiments or active prototypes; the individual README is the source of truth for current status, setup, and limitations.
