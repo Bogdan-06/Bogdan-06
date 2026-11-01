@@ -1,41 +1,78 @@
-# Bogdan Bogănescu
+<div align="center">
+  <img src="./assets/profile-banner.svg" alt="Bogdan Bogănescu — Android, computer vision, accessibility, and systems" />
+</div>
 
-**Android development · Accessibility · Computer vision · Systems programming**
+<div align="center">
+  <a href="https://github.com/Bogdan-06/VisionAssist">VisionAssist</a>
+  ·
+  <a href="https://github.com/Bogdan-06/nes-emu">NES Emulator</a>
+  ·
+  <a href="https://github.com/Bogdan-06/file-compressor">File Compressor</a>
+</div>
 
-I build practical software across mobile, computer vision, voice interfaces, desktop tools, and emulation. My current focus is making useful technology more accessible while learning how systems work from the hardware and runtime up.
+## Hello
 
-## Current focus
+I’m Bogdan, a developer who likes turning technical ideas into things that can actually be used.
+
+I build across Android, computer vision, voice interfaces, desktop tools, and emulation. I’m especially interested in the space where software meets people: clear interfaces, accessible interaction, and systems that behave predictably.
+
+I also enjoy going in the other direction—from a camera frame or a UI interaction down to memory maps, instruction sets, and runtime behavior.
+
+## What I’m building
 
 ### [VisionAssist](https://github.com/Bogdan-06/VisionAssist)
 
 An Android assistive prototype with offline object recognition, Romanian voice assistance, and an accessible Jetpack Compose interface.
 
-- On-device camera inference with CameraX, MediaPipe, and a bundled model
-- TalkBack-readable results, large controls, and Romanian text-to-speech
-- Optional Gemini Live and OpenAI Realtime integrations through a short-lived-credential backend
-
-`Kotlin` `Android` `Jetpack Compose` `CameraX` `MediaPipe` `Node.js`
+| | |
+| :--- | :--- |
+| **On-device** | CameraX, MediaPipe, and a bundled model |
+| **Accessible** | TalkBack-readable results, large controls, Romanian text-to-speech |
+| **Connected when needed** | Optional Gemini Live and OpenAI Realtime integrations |
 
 > Experimental software: object recognition is not a validated hazard detector or navigation system.
 
-## Selected projects
+## Things I like building
 
-| Project | What it explores | Technologies |
-| :--- | :--- | :--- |
-| [File Compressor](https://github.com/Bogdan-06/file-compressor) | Windows media and file compression with queues and side-by-side previews | C# · .NET · WPF · FFmpeg |
-| [FriendMap](https://github.com/Bogdan-06/friendmap) | Opt-in live location sharing, maps, and notifications on Android | Kotlin · Firebase · Google Maps |
-| [Hand Gesture Media Control](https://github.com/Bogdan-06/hand-gesture-media-control) | Configurable webcam gestures for media playback and volume control | Python · MediaPipe · OpenCV |
-| [NES Emulator](https://github.com/Bogdan-06/nes-emu) | Learning console emulation with a C++17 implementation | C++ · SDL2 · CMake |
-| [PS1 Emulator](https://github.com/Bogdan-06/ps1-emulator) | BIOS loading, memory mapping, and a MIPS R3000A interpreter | C++20 · MIPS · SDL2 |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Interfaces that help</h3>
+      <p>Accessible Android experiences, voice feedback, camera tools, and controls that stay understandable.</p>
+      <code>Kotlin</code> <code>Compose</code> <code>CameraX</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Systems worth understanding</h3>
+      <p>Emulators and experiments that make hardware, memory, and instruction execution less mysterious.</p>
+      <code>C++</code> <code>SDL2</code> <code>CMake</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Practical desktop tools</h3>
+      <p>Small utilities that solve real problems, from media compression to gesture-based controls.</p>
+      <code>C#</code> <code>.NET</code> <code>Python</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Experiments with a purpose</h3>
+      <p>I use prototypes to test ideas, learn unfamiliar systems, and turn rough concepts into working software.</p>
+      <code>MediaPipe</code> <code>FFmpeg</code> <code>Firebase</code>
+    </td>
+  </tr>
+</table>
 
-## Technical focus
+## Selected work
 
-**Mobile & accessibility** — Kotlin · Android · Jetpack Compose · CameraX · TalkBack
+| Project | Why it is interesting |
+| :--- | :--- |
+| [File Compressor](https://github.com/Bogdan-06/file-compressor) | A Windows tool for queued media/file compression and side-by-side previews |
+| [FriendMap](https://github.com/Bogdan-06/friendmap) | Opt-in live location sharing, maps, friend requests, and notifications |
+| [Hand Gesture Media Control](https://github.com/Bogdan-06/hand-gesture-media-control) | Configurable webcam gestures for media playback and volume control |
+| [NES Emulator](https://github.com/Bogdan-06/nes-emu) | A C++17 exploration of console architecture |
+| [PS1 Emulator](https://github.com/Bogdan-06/ps1-emulator) | BIOS loading, memory mapping, and a MIPS R3000A interpreter |
 
-**Vision & voice** — MediaPipe · on-device inference · Romanian TTS · Gemini Live · OpenAI Realtime
+## Current toolkit
 
-**Systems & desktop** — C++ · C# · Python · .NET/WPF · SDL2 · CMake · FFmpeg
+`Kotlin` `Android` `Jetpack Compose` `CameraX` `MediaPipe` `C++` `C#` `Python` `CMake` `SDL2` `FFmpeg` `Node.js` `Firebase`
 
-**Backend & services** — Node.js · Firebase · Google Maps
-
-Most of my repositories are experiments or active prototypes; the individual README is the source of truth for current status, setup, and limitations.
+Most repositories are experiments or active prototypes. Each project README is the source of truth for its current status, setup instructions, and limitations.
